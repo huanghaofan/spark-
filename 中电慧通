@@ -1,0 +1,26 @@
+图码联侦平台：
+http://192.168.31.244:8090/meerkat-h5/  
+superAdmin aaa111
+
+
+mongodb数据库：192.168.31.244:29017  无账号密码 库：meerkat-min
+节点：192.168.31.244  账号：root 密码：123456
+
+开发环境集群
+网址：http://192.168.31.232:8090/meerkat-h5/  账号：superAdmin 密码：aaa111
+mongodb数据库节点：192.168.31.242:29017, 192.168.31.242:29018, 192.168.31.247:29017, 192.168.31.247:29018  无账号密码   库：meerkat-test-v104
+集群：192.168.31.230   192.168.31.231 192.168.31.232        账号：root 密码：zdha123456
+hadoop集群软件部署路径：/hadoop/app
+
+Mysql数据库：
+192.168.31.231：3306/snakerdb
+taskv100/taskv100123
+
+mysql -h192.168.31.231 -P3306 -utaskv100 -ptaskv100123 -Dsnakerdb --default-character-set=utf8 -A
+
+
+软件开发：IDEA
+Java版本：jdk8
+Scala版本：2.11
+
+公司文件路径： \\192.168.31.53
